@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>BLOC Printing Setup</title>
+  <meta name="description" content="Acesse o Instagram ou fale conosco no WhatsApp da BLOC Printing Setup." />
+  <meta property="og:title" content="BLOC Printing Setup" />
+  <meta property="og:description" content="Clique para ver nosso Instagram ou falar no WhatsApp." />
+  <meta property="og:image" content="img/VARIA - BLOC SF-09.png" />
+  <meta property="og:type" content="website" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="wrap">
+    <div class="card" role="main">
+      <!-- Logo -->
+      <div class="logo-container">
+        <img src="img/LOGO WEB.png" alt="Logo BLOC Printing Setup" class="logo">
+      </div>
+      <h1>🎉 Parabéns! Você ganhou 10% de desconto em qualquer produto da nossa loja!
+Use seu desconto até o dia 01/12/2025 e aproveite para garantir aquele item que você estava de olho 😍</h1>
+      <p class="lead">Escolha um atalho para nos seguir ou falar no WhatsApp.</p>
+
+      <div class="buttons">
+        <!-- Instagram -->
+        <a id="btnIg" class="btn ig" href="#" target="_blank" rel="noopener noreferrer">
+          <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" width="20" alt="Instagram">
+          <span id="igLabel">@blocsetup</span>
+        </a>
+
+        <!-- WhatsApp -->
+        <a id="btnWa" class="btn wa" href="#" target="_blank" rel="noopener noreferrer">
+          <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" width="20" alt="WhatsApp">
+          <span>Chamar no WhatsApp</span>
+        </a>
+
+        <!-- Copiar link -->
+        <button id="btnCopy" class="btn copy">🔗 Copiar link</button>
+      </div>
+
+      <!-- QR Code -->
+    <div class="qrcode">
+        <div id="qrcode"></div>
+        <p class="qr-label">Escaneie o QR Code para acessar esta página 📱</p>
+    </div>
+
+
+      <div class="footer">
+      </div>
+    </div>
+  </div>
+
+  <!-- Biblioteca de QR Code -->
+  <script src="https://cdn.jsdelivr.net/npm/qrcodejs/qrcode.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
